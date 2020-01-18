@@ -618,8 +618,8 @@
                                      PIN_PUPDR_PULLUP(GPIOC_SDIO_D0) |      \
                                      PIN_PUPDR_PULLUP(GPIOC_SDIO_D1) |      \
                                      PIN_PUPDR_PULLUP(GPIOC_SDIO_D2) |      \
-                                     PIN_PUPDR_FLOATING(GPIOC_SDIO_D3) |    \
-                                     PIN_PUPDR_PULLUP(GPIOC_SDIO_CLK) |     \
+                                     PIN_PUPDR_PULLDOWN(GPIOC_SDIO_D3) |    \
+                                     PIN_PUPDR_FLOATING(GPIOC_SDIO_CLK) |   \
                                      PIN_PUPDR_PULLUP(GPIOC_PIN13) |        \
                                      PIN_PUPDR_FLOATING(GPIOC_OSC32_IN) |   \
                                      PIN_PUPDR_FLOATING(GPIOC_OSC32_OUT))

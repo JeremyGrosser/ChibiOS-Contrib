@@ -373,7 +373,7 @@
         Type="PushPull"
         Level="High"
         Speed="Maximum"
-        Resistor="Floating"
+        Resistor="PullUP"
         Mode="Alternate"
         Alternate="12" />
       <pin12
@@ -381,7 +381,7 @@
         Type="PushPull"
         Level="High"
         Speed="Maximum"
-        Resistor="PullUp"
+        Resistor="Floating"
         Mode="Alternate"
         Alternate="12" />
       <pin13
